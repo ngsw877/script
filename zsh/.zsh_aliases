@@ -56,6 +56,17 @@ alias dcu='docker-compose up -d && docker-compose ps'
 alias dcub='docker-compose up -d --build'
 alias dcs='docker-compose stop'
 
+### npm command ###
+alias ni='npm install'
+alias nrd='npm run dev'
+alias nrw='npm run watch'
+alias nrwp='npm run watch-poll'
+alias nrs='npm run serve'
+
+### yarn command ###
+alias yi='yarn install'
+alias yd='yarn dev'
+
 ### function ###
 
 function mkcd() {
