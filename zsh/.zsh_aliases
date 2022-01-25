@@ -43,6 +43,9 @@ alias gbD='git branch -D'
 alias gbc='git branch --contains'
 alias gl1='git log --oneline -n'
 
+alias gsu='git submodule update'
+alias gsur='git submodule update --remote'
+
 ### docker  ###
 alias d='docker'
 alias dc='docker-compose'
