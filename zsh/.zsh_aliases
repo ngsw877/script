@@ -23,13 +23,13 @@ alias gco='git checkout'
 alias gcob='git checkout -b'
 alias ga='git add'
 alias gcod='git checkout develop'
-alias gcom='git checkout master'
-alias gpo='git push origin'
-alias gpom='git push origin master'
+alias gcom='git checkout main'
+alias gpo='git push origin'R
+alias gpom='git push origin main'
 alias gpl='git pull'
 alias gplo='git pull origin'
 alias gplod='git pull origin develop'
-alias gplom='git pull origin master'
+alias gplom='git pull origin main'
 alias gss='git stash -u'
 alias gssp='git stash pop'
 alias grmc='git rm -r --cached'
@@ -74,7 +74,7 @@ function mkcd() {
 }
 
 # delete-maerged-branch
-PROTECT_BRANCHES='master|develop'
+PROTECT_BRANCHES='master|main|develop'
 
 git-delete-merged-branch() {
     git fetch --prune
